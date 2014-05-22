@@ -21,6 +21,19 @@
 		57688457192D72D3006495C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57688439192D72D2006495C2 /* UIKit.framework */; };
 		5768845F192D72D3006495C2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5768845D192D72D3006495C2 /* InfoPlist.strings */; };
 		57688461192D72D3006495C2 /* OmikujiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57688460192D72D3006495C2 /* OmikujiTests.m */; };
+		5768846C192D7304006495C2 /* MUPOmikuji.m in Sources */ = {isa = PBXBuildFile; fileRef = 5768846B192D7304006495C2 /* MUPOmikuji.m */; };
+		57688473192D7FFA006495C2 /* happy0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768846D192D7FFA006495C2 /* happy0.jpg */; };
+		57688474192D7FFA006495C2 /* happy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768846E192D7FFA006495C2 /* happy1.jpg */; };
+		57688475192D7FFA006495C2 /* happy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768846F192D7FFA006495C2 /* happy2.jpg */; };
+		57688476192D7FFA006495C2 /* normal0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57688470192D7FFA006495C2 /* normal0.jpg */; };
+		57688477192D7FFA006495C2 /* normal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57688471192D7FFA006495C2 /* normal1.jpg */; };
+		57688478192D7FFA006495C2 /* normal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57688472192D7FFA006495C2 /* normal2.jpg */; };
+		5768847F192D8012006495C2 /* sad0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57688479192D8012006495C2 /* sad0.jpg */; };
+		57688480192D8012006495C2 /* sad1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768847A192D8012006495C2 /* sad1.jpg */; };
+		57688481192D8012006495C2 /* sad2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768847B192D8012006495C2 /* sad2.jpg */; };
+		57688482192D8012006495C2 /* veryHappy0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768847C192D8012006495C2 /* veryHappy0.jpg */; };
+		57688483192D8012006495C2 /* veryHappy1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768847D192D8012006495C2 /* veryHappy1.jpg */; };
+		57688484192D8012006495C2 /* veryHappy2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5768847E192D8012006495C2 /* veryHappy2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +66,20 @@
 		5768845C192D72D3006495C2 /* OmikujiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OmikujiTests-Info.plist"; sourceTree = "<group>"; };
 		5768845E192D72D3006495C2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57688460192D72D3006495C2 /* OmikujiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmikujiTests.m; sourceTree = "<group>"; };
+		5768846A192D7304006495C2 /* MUPOmikuji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MUPOmikuji.h; sourceTree = "<group>"; };
+		5768846B192D7304006495C2 /* MUPOmikuji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPOmikuji.m; sourceTree = "<group>"; };
+		5768846D192D7FFA006495C2 /* happy0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy0.jpg; sourceTree = "<group>"; };
+		5768846E192D7FFA006495C2 /* happy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy1.jpg; sourceTree = "<group>"; };
+		5768846F192D7FFA006495C2 /* happy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = happy2.jpg; sourceTree = "<group>"; };
+		57688470192D7FFA006495C2 /* normal0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal0.jpg; sourceTree = "<group>"; };
+		57688471192D7FFA006495C2 /* normal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal1.jpg; sourceTree = "<group>"; };
+		57688472192D7FFA006495C2 /* normal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = normal2.jpg; sourceTree = "<group>"; };
+		57688479192D8012006495C2 /* sad0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sad0.jpg; sourceTree = "<group>"; };
+		5768847A192D8012006495C2 /* sad1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sad1.jpg; sourceTree = "<group>"; };
+		5768847B192D8012006495C2 /* sad2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sad2.jpg; sourceTree = "<group>"; };
+		5768847C192D8012006495C2 /* veryHappy0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veryHappy0.jpg; sourceTree = "<group>"; };
+		5768847D192D8012006495C2 /* veryHappy1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veryHappy1.jpg; sourceTree = "<group>"; };
+		5768847E192D8012006495C2 /* veryHappy2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = veryHappy2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +139,12 @@
 		5768843B192D72D2006495C2 /* Omikuji */ = {
 			isa = PBXGroup;
 			children = (
+				57688485192D8018006495C2 /* images */,
 				57688444192D72D2006495C2 /* MUPAppDelegate.h */,
 				57688445192D72D2006495C2 /* MUPAppDelegate.m */,
 				57688447192D72D3006495C2 /* Main.storyboard */,
+				5768846A192D7304006495C2 /* MUPOmikuji.h */,
+				5768846B192D7304006495C2 /* MUPOmikuji.m */,
 				5768844A192D72D3006495C2 /* MUPViewController.h */,
 				5768844B192D72D3006495C2 /* MUPViewController.m */,
 				5768844D192D72D3006495C2 /* Images.xcassets */,
@@ -150,6 +180,25 @@
 				5768845D192D72D3006495C2 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57688485192D8018006495C2 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				5768846D192D7FFA006495C2 /* happy0.jpg */,
+				5768846E192D7FFA006495C2 /* happy1.jpg */,
+				5768846F192D7FFA006495C2 /* happy2.jpg */,
+				57688470192D7FFA006495C2 /* normal0.jpg */,
+				57688471192D7FFA006495C2 /* normal1.jpg */,
+				57688472192D7FFA006495C2 /* normal2.jpg */,
+				57688479192D8012006495C2 /* sad0.jpg */,
+				5768847A192D8012006495C2 /* sad1.jpg */,
+				5768847B192D8012006495C2 /* sad2.jpg */,
+				5768847C192D8012006495C2 /* veryHappy0.jpg */,
+				5768847D192D8012006495C2 /* veryHappy1.jpg */,
+				5768847E192D8012006495C2 /* veryHappy2.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +279,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				5768844E192D72D3006495C2 /* Images.xcassets in Resources */,
+				57688482192D8012006495C2 /* veryHappy0.jpg in Resources */,
+				57688481192D8012006495C2 /* sad2.jpg in Resources */,
+				5768847F192D8012006495C2 /* sad0.jpg in Resources */,
+				57688484192D8012006495C2 /* veryHappy2.jpg in Resources */,
 				57688440192D72D2006495C2 /* InfoPlist.strings in Resources */,
+				57688476192D7FFA006495C2 /* normal0.jpg in Resources */,
+				57688475192D7FFA006495C2 /* happy2.jpg in Resources */,
+				57688477192D7FFA006495C2 /* normal1.jpg in Resources */,
+				57688474192D7FFA006495C2 /* happy1.jpg in Resources */,
+				57688480192D8012006495C2 /* sad1.jpg in Resources */,
 				57688449192D72D3006495C2 /* Main.storyboard in Resources */,
+				57688473192D7FFA006495C2 /* happy0.jpg in Resources */,
+				57688483192D8012006495C2 /* veryHappy1.jpg in Resources */,
+				57688478192D7FFA006495C2 /* normal2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +312,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57688442192D72D2006495C2 /* main.m in Sources */,
+				5768846C192D7304006495C2 /* MUPOmikuji.m in Sources */,
 				5768844C192D72D3006495C2 /* MUPViewController.m in Sources */,
 				57688446192D72D2006495C2 /* MUPAppDelegate.m in Sources */,
 			);
