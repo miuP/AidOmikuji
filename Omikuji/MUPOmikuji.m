@@ -10,9 +10,9 @@
 
 @implementation MUPOmikuji
 
-- (NSString *)devineWithLuckPower:(NSInteger)luckpower
+- (NSString *)devineWithLuckPower:(MUPLuckPower)luckpower
 {
-    if (luckpower == 0) {
+    if (luckpower == MUPLuckPowerMin) {
         int random = rand()%4;
         switch (random) {
             case 0:
@@ -26,7 +26,7 @@
             default:
                 break;
         }
-    } else if (luckpower == 1) {
+    } else if (luckpower == MUPLuckPowerNormal) {
         int random = rand()%8;
         switch (random) {
             case 0:
@@ -71,7 +71,7 @@
                 break;
         }
     }
-    return nil;
+    return @"";
 }
 
 @end

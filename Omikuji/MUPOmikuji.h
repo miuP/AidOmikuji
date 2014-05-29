@@ -7,9 +7,19 @@
 //
 
 #import <Foundation/Foundation.h>
+typedef enum {
+    MUPLuckPowerMin = 0,
+    MUPLuckPowerNormal,
+    MUPLuckPowerMax
+} MUPLuckPower;
+
+typedef enum {
+    debug = 0,
+    onePlayer,
+    twoPlayer
+} gameMode;
 
 @interface MUPOmikuji : NSObject
-
-- (NSString *)devineWithLuckPower:(NSInteger)luckpower;
+- (NSString *)devineWithLuckPower:(MUPLuckPower)luckpower;
 
 @end
